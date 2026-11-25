@@ -9,5 +9,6 @@ jobs:
 
     steps:
       - name: Hello step
-        run: echo "welcome to Akash"
-
+        run: |
+          echo "welcome to testing"
+          echo "life is beautiful when akash is beside of you"
