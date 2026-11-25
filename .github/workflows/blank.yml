@@ -4,11 +4,21 @@ on:
   workflow_dispatch:
 
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Hello step
-        run: |
-          echo "welcome to testing"
-          echo "life is beautiful when akash is beside of you"
+      - name: Build step
+        run: echo "need to collect evidence"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test phase
+        run: echo "raise a SR ticjet for deployment"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy app
+        run: echo "do sanity for BAU tables"
+      
+    
+    
