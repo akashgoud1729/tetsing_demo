@@ -9,7 +9,5 @@ jobs:
 
     steps:
       - name: Hello step
-        run: |
-        echo "welcome to testing"
-        echo "Hi Akash"
+        run: echo "welcome to testing"
 
