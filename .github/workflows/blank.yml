@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build step
-        run: echo "hello, ${{ vars.MY_NAME}}"
+        run: echo "hello, ${{ secrets.DOCKER_PASSWORD}}"
  
     
     
