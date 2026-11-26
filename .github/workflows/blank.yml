@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build step
-        run: echo "need to collect evidence"
+        run: echo "hello, ${{ vars.MY_NAME}}"
  
     
     
